@@ -28,6 +28,10 @@ In the scripts.js file, it is just storing the books as JavaScript objects under
             formReadSwitch
         );
 ```
+
+Also, clicking the book name opens a URL in the form of yourip:1337/liteShare/username/bookid. But logging in as another user and then pasting this URL shows a report button.
+![image](https://github.com/Sandeep3084/Cryptonite_Web/assets/148266037/1cf8db86-4bda-487d-86d6-367f1694a007)
+
 It could be dealt with CSP bypass, but there are multiple methods to do so such as RPO, Redirection etc. so currently looking at  https://book.hacktricks.xyz/pentesting-web/content-security-policy-csp-bypass in order to find a viable approach. 
 
 JSONP replies may be a possible way to exploit the JavaScript code and trying to figure out a suitable payload would be the work here.
